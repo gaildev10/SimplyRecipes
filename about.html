@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+     <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+       <div class="nav-header">
+        <a href="index.html" class=".nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipies" />
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+       </div>
+       <!-- links -->
+       <div class="nav-links">
+        <a href="index.html" class="nav-link">home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+       
+       </div>
+      </div>
+     </nav>
+    <!-- end of nav -->
+    <!-- main -->
+     <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Sharing Recipes of my Mother's, Grandmother's & Friends</h2>
+          <p>Would I prefer to eat at the Greatest Restaurant in the World or a choice from my Recipes List? I would choice stir fry vegetables any day of the Week.</p>
+          <p>I only wish I had my Grandmother's Blackberry pie recipe.</p>
+        </article>
+        <img src="./assets/images/guy.png" alt="pouring salt" class="img about-img">
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Grandma's Recipes</h5>
+         <!-- recipes list -->
+         <div class="recipes-list">
+           <!-- single recipe -->
+           <a href="./collard-greens.html" class="recipe">
+            <img src="./assets/recipes/collard-greens.png" alt="food" class="img recipe-img" />
+            <h5>collard greens</h5>
+            <p>Prep : 15min | Cook : 2.5hours</p>
+          </a>
+        <!-- end of single recipe -->
+             <!-- single recipe -->
+             <a href="./cornbread.html" class="recipe">
+              <img src="./assets/recipes/cornbread.png" alt="food" class="img recipe-img" />
+              <h5>cornbread</h5>
+              <p>Prep : 15min | Cook : 5min</p>
+            </a>
+          <!-- end of single recipe -->
+           <!-- single recipe -->
+           <a href="./sweet-potato-pie.html" class="recipe">
+            <img src="./assets/recipes/sweet-potato-pie.png" alt="food" class="img recipe-img" />
+            <h5>sweet potatoe pie</h5>
+            <p>Prep : 5min | Cook : 45min</p>
+          </a>
+        <!-- end of single recipe -->
+         
+          
+        
+           </div>
+          <!-- end of recipes list-->
+      </section>
+     </main>
+    <!-- end of main -->
+    <!-- footer -->
+     <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+      <span class="footer-logo"> SimplyRecipies </span>
+    Built by Gail Giles</p>
+     </footer>
+
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

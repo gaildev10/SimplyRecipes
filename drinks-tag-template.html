@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drinks Template</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+     <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+       <div class="nav-header">
+        <a href="index.html" class=".nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipies" />
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+       </div>
+       <!-- links -->
+       <div class="nav-links">
+        <a href="index.html" class="nav-link">home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+        
+       </div>
+      </div>
+     </nav>
+    <!-- end of nav -->
+    <!-- main -->
+     <main class="page">
+      <div>
+        <h4>Drinks</h4>
+
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+            <a href="./fresh-lime-strawberry-punch.html" class="recipe">
+              <img src="./assets/recipes/fresh-lime-strawberry-punch.jpg" alt="food" class="img recipe-img" />
+              <h5>fresh lime and strawberry punch</h5>
+              <p>Prep : 15min </p>
+            </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+            <a href="./hot-cocoa.html" class="recipe">
+              <img src="./assets/recipes/hot-cocoa.png" alt="food" class="img recipe-img" />
+              <h5>hot cocoa</h5>
+              <p>Prep : 1min </p>
+            </a>
+          <!-- end of single recipe -->
+           <!-- single recipe -->
+           <a href="./buttermilk.html" class="recipe">
+            <img src="./assets/recipes/buttermilk.png" alt="food" class="img recipe-img" />
+            <h5>buttermilk</h5>
+            <p>Prep : 1min | Cook : 0min</p>
+          </a>
+        <!-- end of single recipe -->
+           <!-- single recipe -->
+           <a href="./strawberry-milkshake.html" class="recipe">
+            <img src="./assets/recipes/strawberry-milkshake.jpg" alt="food" class="img recipe-img" />
+            <h5>strawberry milkshake</h5>
+            <p>Prep : 10min | Cook : 10min</p>
+          </a>
+        <!-- end of single recipe -->
+        
+           </div>
+          <!-- end of recipes list-->
+      </div>
+     </main>
+    <!-- end of main -->
+    <!-- footer -->
+     <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+      <span class="footer-logo"> SimplyRecipies </span>
+    Built by Gail Giles</p>
+     </footer>
+
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

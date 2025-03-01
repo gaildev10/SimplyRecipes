@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+     <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+       <div class="nav-header">
+        <a href="index.html" class=".nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipies" />
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+       </div>
+       <!-- links -->
+       <div class="nav-links">
+        <a href="index.html" class="nav-link">home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+        
+       </div>
+      </div>
+     </nav>
+    <!-- end of nav -->
+    <!-- main -->
+     <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/crispy-fried-chicken-sandwich.png" class="img recipe-hero-img" alt="pancakes" />
+          <article>
+            <h2>Crispy Fried Chicken Sandwich</h2>
+            <p>Delicious crispy fried chicken</p>
+             <!-- recipe icons -->
+              <div class="recipe-icons">
+                  <!-- single recipe icon -->
+                   <article>
+                    <i class="fas fa-clock"></i>
+                    <h5>prep time</h5>
+                    <p>0 mins</p>
+                   </article>
+                  <!-- single recipe icon -->
+                   <article>
+                    <i class="far fa-clock"></i>
+                    <h5>cook time</h5>
+                    <p>0 mins</p>
+                   </article>
+                  <!-- single recipe icon -->
+                   <article>
+                    <i class="fas fa-user-friends"></i>
+                    <h5>amount of servings</h5>
+                    <p>4 servings</p>
+                   </article>
+              </div>
+
+             <!-- recipe tags -->
+              <div class="recipe-tags">
+                Tags : <a href="chicken-tag-template.html">chicken</a>
+                <!-- <a href="tag-template.html">breakfast</a>
+                <a href="tag-pancakes.html">pancakes</a>
+                <a href="tag-template.html">food</a> -->
+              </div>
+          </article>
+        </section>
+         <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+             <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div>
+                </div>
+              </header>
+              <p>Make marinade: <br>
+                Stir together 1/2 cup picklebrine, 1 tablespoon salt, paprika, 1 teaspoon pepper, cayenne pepper, garlic powder & onion powder. <br>
+                place mixture in a plastic bag along with the chicken. (Marinate for 2 or more hours)
+            </p>
+            <!-- single instruction -->
+             <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>Create wet batter:
+                Buttermilk, 1/2 cup water, egg <br>
+                Add chicken
+            </p>
+              <p>Mix Dry batter:
+                Flour, cornstarch, 1 tablespoon salt, pepper 
+            </p>
+            <!-- single instruction -->
+             <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>Dip wet chicken into flour</p>
+             </div>
+            <!-- single instruction -->
+             <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>Add floured chicken to hot oil (360 degrees)</p>
+             </div>
+            
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                ½ cup pickle brine
+              </p>
+              <p class="single-ingredient">
+                2 tablespoons kosher salt (divided)
+              </p>
+              <p class="single-ingredient">
+                2 teaspoons paprika
+              </p>
+              <p class="single-ingredient">
+                1 tablespoon plus 1 teaspoon black pepper (divided)
+              </p>
+              <p class="single-ingredient">
+                ½ teaspoon cayenne pepper
+              </p>
+              <p class="single-ingredient">
+                ½ teaspoon garlic powder
+              </p>
+              <p class="single-ingredient">
+                ½ teaspoon onion powder
+              </p>
+              <p class="single-ingredient">
+                12 boneless, skinnless chicken thighs (about 3 pounds)
+              </p>
+              <p class="single-ingredient">
+                1 cup buttermilk
+              </p>
+              <p class="single-ingredient">
+                ½ cup water
+              </p>
+              <p class="single-ingredient">
+                1 large egg
+              </p>
+              <p class="single-ingredient">
+                4 cups all-purpose flour
+              </p>
+              <p class="single-ingredient">
+                ¼ cup cornstarch
+              </p>
+            </div>
+            <div>
+              <!-- <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Hand Blender</p> -->
+            </div>
+          </article>
+        </section>
+      </div>
+     </main>
+    <!-- end of main -->
+    <!-- footer -->
+     <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+      <span class="footer-logo"> SimplyRecipies </span>
+    Built by Gail Giles</p>
+     </footer>
+
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
